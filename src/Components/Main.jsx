@@ -12,7 +12,6 @@ import Contact_Us_form from './Contact_Us_form'
 const Main = () => {
   return (
     <>
-
       <Nav />
       <Slider />
       <Card />
