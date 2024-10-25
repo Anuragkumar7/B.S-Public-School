@@ -12,7 +12,9 @@ const Nav = () => {
                 src="https://imgs.search.brave.com/12RkbHyrkM6OSJI_Yui3EH-JMwr6xv8NA1jhFh6OseA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zZWVr/bG9nby5jb20vaW1h/Z2VzL1Mvc2Fuc2th/ci1wdWJsaWMtc2No/b29sLW1hbmRyZWxs/YS1sb2dvLTBDMkVF/MDFBMTktc2Vla2xv/Z28uY29tLnBuZw"
                 alt="Logo"
               />
-              <h2 className="font-bold pl-3 text-2xl h-8 lg:h-8 underline">B.S PUBLIC SCHOOL</h2>
+              <h2 className="font-bold pl-3 text-2xl h-8 lg:h-8 underline">
+                B.S PUBLIC SCHOOL
+              </h2>
             </a>
           </div>
 
@@ -83,11 +85,14 @@ const Nav = () => {
               Achievements
             </a>
             <a
-              href="#"
+              href="/contact"
               className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
             >
               Contact Us
+              {" "}
+              Contact Us{" "}
             </a>
+            
           </div>
         </nav>
       </div>
