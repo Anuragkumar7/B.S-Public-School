@@ -101,12 +101,12 @@ Contact us */}
               Achivements{" "}
             </a>
             <a
-              href="#"
+              href="/contact"
               title=""
               className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
             >
               {" "}
-              About Us{" "}
+              Contact Us{" "}
             </a>
           </div>
           {/* 
