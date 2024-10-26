@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Card = () => {
   return (
@@ -10,52 +10,64 @@ const Card = () => {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 mt-12 lg:mt-24 gap-y-12 md:grid-cols-2 lg:grid-cols-4 gap-x-6">
+        <div className="grid grid-cols-1 mt-12 lg:mt-24 gap-y-12 md:grid-cols-2 lg:grid-cols-4 gap-x-6 ">
           <div className="md:px-4 lg:px-4">
             <img
-              className="-rotate-1"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/steps/3/team.jpg"
+              className="rounded-lg border-solid border-2 border-sky-500 bg-gray-400"
+              src="../../public/images/principal.png"
               alt=""
             />
-            <h3 className="mt-8 text-xl font-semibold leading-tight text-black">Join as a team</h3>
+            <h3 className="mt-4 text-xl font-semibold leading-tight  text-black">
+              Principal's Message
+            </h3>
             <p className="mt-4 text-base text-gray-600">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint.
             </p>
           </div>
 
           <div className="md:px-4 lg:px-4">
             <img
-              className="rotate-1"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/steps/3/work.jpg"
+              className="rounded-lg border-solid border-2 border-sky-500 bg-gray-400"
+              src="../../public/images/sports.png"
               alt=""
             />
-            <h3 className="mt-8 text-xl font-semibold leading-tight text-black">Work from anywhere</h3>
+            <h3 className="mt-4 text-xl font-semibold leading-tight text-black">
+              Annual Sports meet
+            </h3>
             <p className="mt-4 text-base text-gray-600">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint.
             </p>
           </div>
 
           <div className="md:px-4 lg:px-4">
             <img
-              className="rotate-1"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/steps/3/work.jpg"
-              alt=""
+              className="rounded-lg border-solid border-2 border-sky-500 bg-gray-400"
+              src="../../public/images/Achievements.png"
+              alt="" 
             />
-            <h3 className="mt-8 text-xl font-semibold leading-tight text-black">Work from anywhere</h3>
+            <h3 className="mt-4 text-xl font-semibold leading-tight text-black">
+              Our Achievements
+            </h3>
             <p className="mt-4 text-base text-gray-600">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint.
             </p>
           </div>
 
           <div className="md:px-4 lg:px-4">
             <img
-              className="-rotate-1"
-              src="https://cdn.rareblocks.xyz/collection/celebration/images/steps/3/success.jpg"
+              className="rounded-lg border-solid border-2 border-sky-500 bg-gray-400"
+              src="../../public/images/Competition.png"
               alt=""
             />
-            <h3 className="mt-8 text-xl font-semibold leading-tight text-black">Get success</h3>
+            <h3 className="mt-4 text-xl font-semibold leading-tight text-black">
+            Creative Competition
+            </h3>
             <p className="mt-4 text-base text-gray-600">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint.
             </p>
           </div>
         </div>
