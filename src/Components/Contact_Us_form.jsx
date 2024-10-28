@@ -214,17 +214,15 @@ export default function Contact_Us_form() {
                   autoComplete="postal-code"
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   />
+
               </div>
             </div>
-          </div>
-        </div>
 
-        <div className="border-b border-gray-900/10 pb-12">
-          <h2 className="text-base font-semibold leading-7 text-gray-900">Notifications</h2>
-          <p className="mt-1 text-sm leading-6 text-gray-600">
-            We'll always let you know about important changes, but you pick what else you want to hear about.
-          </p>
-
+            {/* Contact Us Section - Right Side */}
+            <div className="flex justify-end"> {/* Use justify-end to shift to the right */}
+              <div className="w-full sm:w-3/4 md:w-2/3 lg:w-3/4 xl:w-2/3"> {/* Width settings */}
+                <div className="text-center mb-6"> {/* Centered the heading */}
+                  <h2 className="text-4xl font-bold text-gray-900">Contact Us</h2>
           <div className="mt-10 space-y-10">
             <fieldset>
               <legend className="text-sm font-semibold leading-6 text-gray-900">By Email</legend>
@@ -244,16 +242,77 @@ export default function Contact_Us_form() {
                     </label>
                     <p className="text-gray-500">Get notified when someones posts a comment on a posting.</p>
                   </div>
+
                 </div>
-                <div className="relative flex gap-x-3">
-                  <div className="flex h-6 items-center">
-                    <input
-                      id="candidates"
-                      name="candidates"
-                      type="checkbox"
-                      className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600"
-                    />
+                <form action="#" method="POST" className="mt-4">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-4"> {/* Horizontal Layout */}
+                    <div>
+                      <label className="text-base font-medium text-gray-900">Parent's Name</label>
+                      <div className="mt-1.5">
+                        <input
+                          type="text"
+                          placeholder="Enter parent's name"
+                          className="block w-full px-3 py-2 text-black bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600"
+                        />
+                      </div>
+                    </div>
+
+                    <div>
+                      <label className="text-base font-medium text-gray-900">Student Name</label>
+                      <div className="mt-1.5">
+                        <input
+                          type="text"
+                          placeholder="Enter student name"
+                          className="block w-full px-3 py-2 text-black bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600"
+                        />
+                      </div>
+                    </div>
+
+                    <div>
+                      <label className="text-base font-medium text-gray-900">Phone Number</label>
+                      <div className="mt-1.5">
+                        <input
+                          type="tel"
+                          placeholder="Enter Phone Number"
+                          className="block w-full px-3 py-2 text-black bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600"
+                        />
+                      </div>
+                    </div>
+
+                    <div>
+                      <label className="text-base font-medium text-gray-900">Student Age</label>
+                      <div className="mt-1.5">
+                        <input
+                          type="text"
+                          placeholder="Enter student age"
+                          className="block w-full px-3 py-2 text-black bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600"
+                        />
+                      </div>
+                    </div>
+
+                    <div className="col-span-2"> {/* Make the textarea span two columns */}
+                      <label className="text-base font-medium text-gray-900">Message</label>
+                      <div className="mt-1.5">
+                        <textarea
+                          placeholder=""
+                          className="block w-full px-3 py-2 text-black bg-white border border-gray-200 rounded-md resize-none focus:outline-none focus:border-blue-600 caret-blue-600"
+                          rows="4"
+                        ></textarea>
+                      </div>
+                    </div>
+
+                    <div className="col-span-2"> {/* Center the button in full width */}
+                      <button
+                        type="submit"
+                        className="inline-flex items-center justify-center w-full px-4 py-2 text-base font-semibold text-white bg-blue-600 rounded-md hover:bg-blue-700"
+                      >
+                        Send
+                      </button>
+                    </div>
                   </div>
+                </form>
+              </div>
+            </div>
                   <div className="text-sm leading-6">
                     <label htmlFor="candidates" className="font-medium text-gray-900">
                       Candidates
@@ -318,10 +377,14 @@ export default function Contact_Us_form() {
                 </div>
               </div>
             </fieldset>
-          </div>
-        </div>
-      </div>
 
+          </div>
+
+
+        </div>
+      </section>
+    </>
+  );
       <div className="mt-6 flex items-center justify-end gap-x-6">
         <button type="button" className="text-sm font-semibold leading-6 text-gray-900">
           Cancel
