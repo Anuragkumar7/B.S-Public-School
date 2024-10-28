@@ -6,7 +6,7 @@ export default function LocationAndContact() {
     <>
       <Nav />
       <section className="relative py-10 bg-gray-100 sm:py-12 lg:py-16 mt-20">
-        <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-full">
+        <div className="px-4 mx-auto sm:px-6 0lg:px-8 max-w-full">
           
           {/* Combined Div for Our Location and Contact Us */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 bg-white p-6 rounded-lg shadow-lg border border-blue-300">
