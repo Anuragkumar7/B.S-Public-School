@@ -1,8 +1,11 @@
 
 import { PhotoIcon, UserCircleIcon } from '@heroicons/react/24/solid'
+import Nav from './Nav'
 
 export default function Contact_Us_form() {
   return (
+    <>
+      < Nav/>
     <form>
       <div className="space-y-12">
         <div className="border-b border-gray-900/10 pb-12">
@@ -26,7 +29,7 @@ export default function Contact_Us_form() {
                     placeholder="janesmith"
                     autoComplete="username"
                     className="block flex-1 border-0 bg-transparent py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6"
-                  />
+                    />
                 </div>
               </div>
             </div>
@@ -42,7 +45,7 @@ export default function Contact_Us_form() {
                   rows={3}
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   defaultValue={''}
-                />
+                  />
               </div>
               <p className="mt-3 text-sm leading-6 text-gray-600">Write a few sentences about yourself.</p>
             </div>
@@ -56,7 +59,7 @@ export default function Contact_Us_form() {
                 <button
                   type="button"
                   className="rounded-md bg-white px-2.5 py-1.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
-                >
+                  >
                   Change
                 </button>
               </div>
@@ -102,7 +105,7 @@ export default function Contact_Us_form() {
                   type="text"
                   autoComplete="given-name"
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                />
+                  />
               </div>
             </div>
 
@@ -132,7 +135,7 @@ export default function Contact_Us_form() {
                   type="email"
                   autoComplete="email"
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                />
+                  />
               </div>
             </div>
 
@@ -146,7 +149,7 @@ export default function Contact_Us_form() {
                   name="country"
                   autoComplete="country-name"
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6"
-                >
+                  >
                   <option>United States</option>
                   <option>Canada</option>
                   <option>Mexico</option>
@@ -165,7 +168,7 @@ export default function Contact_Us_form() {
                   type="text"
                   autoComplete="street-address"
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                />
+                  />
               </div>
             </div>
 
@@ -180,7 +183,7 @@ export default function Contact_Us_form() {
                   type="text"
                   autoComplete="address-level2"
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                />
+                  />
               </div>
             </div>
 
@@ -195,7 +198,7 @@ export default function Contact_Us_form() {
                   type="text"
                   autoComplete="address-level1"
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                />
+                  />
               </div>
             </div>
 
@@ -210,7 +213,7 @@ export default function Contact_Us_form() {
                   type="text"
                   autoComplete="postal-code"
                   className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
-                />
+                  />
               </div>
             </div>
           </div>
@@ -233,7 +236,7 @@ export default function Contact_Us_form() {
                       name="comments"
                       type="checkbox"
                       className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600"
-                    />
+                      />
                   </div>
                   <div className="text-sm leading-6">
                     <label htmlFor="comments" className="font-medium text-gray-900">
@@ -265,7 +268,7 @@ export default function Contact_Us_form() {
                       name="offers"
                       type="checkbox"
                       className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-600"
-                    />
+                      />
                   </div>
                   <div className="text-sm leading-6">
                     <label htmlFor="offers" className="font-medium text-gray-900">
@@ -286,7 +289,7 @@ export default function Contact_Us_form() {
                     name="push-notifications"
                     type="radio"
                     className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
-                  />
+                    />
                   <label htmlFor="push-everything" className="block text-sm font-medium leading-6 text-gray-900">
                     Everything
                   </label>
@@ -297,7 +300,7 @@ export default function Contact_Us_form() {
                     name="push-notifications"
                     type="radio"
                     className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
-                  />
+                    />
                   <label htmlFor="push-email" className="block text-sm font-medium leading-6 text-gray-900">
                     Same as email
                   </label>
@@ -308,7 +311,7 @@ export default function Contact_Us_form() {
                     name="push-notifications"
                     type="radio"
                     className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-600"
-                  />
+                    />
                   <label htmlFor="push-nothing" className="block text-sm font-medium leading-6 text-gray-900">
                     No push notifications
                   </label>
@@ -326,10 +329,11 @@ export default function Contact_Us_form() {
         <button
           type="submit"
           className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-        >
+          >
           Save
         </button>
       </div>
     </form>
+          </>
   )
 }
