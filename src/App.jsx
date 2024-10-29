@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Admission from "./Components/Admission";
 import About_School from "./Components/About_School";
 import Faculty from "./Components/Faculty";
-import Achievements from "./Components/Achievements";
+import Achievements from "./Components/Activities";
 
 function App() {
   return (
