@@ -13,7 +13,7 @@ const Nav = () => {
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <nav className="flex items-center justify-between h-16 lg:h-20">
             <div className="flex-shrink-0">
-              <a href="#" title="B.S Public School" className="flex items-center">
+              <a href="/" title="B.S Public School" className="flex items-center">
                 <img
                   className="w-auto h-8 lg:h-10"
                   src="https://imgs.search.brave.com/12RkbHyrkM6OSJI_Yui3EH-JMwr6xv8NA1jhFh6OseA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zZWVr/bG9nby5jb20vaW1h/Z2VzL1Mvc2Fuc2th/ci1wdWJsaWMtc2No/b29sLW1hbmRyZWxs/YS1sb2dvLTBDMkVF/MDFBMTktc2Vla2xv/Z28uY29tLnBuZw"
@@ -103,7 +103,7 @@ const Nav = () => {
                 href="/Achievements"
                 className="block text-base font-medium text-black transition-all duration-200 hover:bg-gray-200 rounded-md p-2 mt-2 lg:mt-0"
               >
-                Achievements
+                Activities
               </a>
               <a
                 href="/contact"

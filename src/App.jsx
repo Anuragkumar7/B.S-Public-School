@@ -4,8 +4,10 @@ import Main from "./Components/Main";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Admission from "./Components/Admission";
 import About_School from "./Components/About_School";
-import Faculty from "./Components/Faculty";
-import Achievements from "./Components/Activities";
+import PrincipalMessage from "./Components/PrincipalMessage";
+import Activities from "./Components/Activities";
+import About from "./Components/about";
+
 
 function App() {
   return (
@@ -14,11 +16,11 @@ function App() {
         <Router>
           <Routes>
             <Route path="/" element={<Main />} />
-            <Route path="/contact" element={<Contact_Us_form />} />
+            <Route path="/About_School" element={<About/>}/>
             <Route path="/Admission" element={<Admission/>}/>
-            <Route path="/About_School" element={<About_School/>}/>
-            <Route path="/Faculty" element={<Faculty/>}/>
-            <Route path="/Achievements" element={<Achievements/>}/>
+            <Route path="/Activities" element={<Activities/>}/>
+            <Route path="/contact" element={<Contact_Us_form />} />
+            <Route path="/principal-message" element={<PrincipalMessage />} />
           </Routes>
         </Router>
       </div>
