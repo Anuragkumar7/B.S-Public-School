@@ -1,10 +1,11 @@
+
 import { MapPinIcon, PhoneIcon, EnvelopeIcon } from '@heroicons/react/24/solid';
-import Nav from './Nav';
+import Navbar from './Navbar';
 
 export default function LocationAndContact() {
   return (
     <>
-      <Nav />
+      <Navbar/>
       <section className="relative py-10 bg-gray-100 sm:py-12 lg:py-16 mt-20">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-full">
           
@@ -77,11 +78,11 @@ export default function LocationAndContact() {
                       </div>
 
                       <div>
-                        <label className="text-base font-medium text-gray-900">Student Age</label>
+                        <label className="text-base font-medium text-gray-900">Class</label>
                         <div className="mt-1.5">
                           <input
                             type="text"
-                            placeholder="Enter student age"
+                            placeholder="Class"
                             className="block w-full px-3 py-2 text-black bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600"
                           />
                         </div>

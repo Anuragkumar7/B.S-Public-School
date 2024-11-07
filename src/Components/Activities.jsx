@@ -1,10 +1,10 @@
 import React from 'react';
-import Nav from './Nav';
+import Navbar from './Navbar';
 
 const Activities = () => {
   return (
     <>
-      <Nav />
+      <Navbar />
       <section className="py-10 bg-gray-50 sm:py-16 lg:py-24">
         <div className="max-w-6xl px-4 mx-auto sm:px-6 lg:px-8">
           <div className="grid items-center grid-cols-1 lg:items-stretch md:grid-cols-2 gap-y-8 gap-x-12 xl:gap-x-20">

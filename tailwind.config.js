@@ -5,8 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Poppins', 'sans-serif'],          // Body text font
+        handwriting: ['Patrick Hand', 'cursive'],  // Heading font
+      },
+    },
   },
   plugins: [],
 }
-
