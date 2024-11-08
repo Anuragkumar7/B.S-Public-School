@@ -9,10 +9,10 @@ const Activities = () => {
       <Navbar />
       
       {/* First section */}
-      <section className="py-6 bg-white sm:py-6 lg:pt-24">
+      <section className="py-6 mt-16 bg-white sm:py-6 lg:pt-24">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="transition-transform transform hover:scale-102 hover:bg-gray-200 hover:shadow-xl duration-300 ease-in-out"> {/* Added hover:bg-gray-200 and hover:shadow-xl */}
-            <div className="bg-white p-6 rounded-lg shadow-lg flex flex-col md:flex-row items-center gap-12">
+            <div className="bg-white p-6 rounded-lg shadow-lg flex flex-col md:flex-row items-center gap-12  transition duration-300 hover:shadow-2xl hover:bg-gray-300">
               
               {/* Left Side Image */}
               <div className="w-auto">
@@ -46,9 +46,9 @@ const Activities = () => {
 
       {/* Second section */}
       <section className="py-6 bg-white sm:py-6 lg:py-6">
-        <div className="max-w-full px-4 mx-auto sm:px-6 lg:px-8">
-          <div className="transition-transform transform hover:scale-102 hover:bg-gray-200 hover:shadow-xl duration-300 ease-in-out">
-            <div className="bg-white p-6 rounded-lg shadow-lg flex flex-col md:flex-row-reverse items-center gap-12">
+        <div className="max-w-full px-4 mx-auto sm:px-6 lg:px-8 ">
+          <div className="transition-transform transform hover:scale-102  hover:bg-gray-200 hover:shadow-xl duration-300 ease-in-out">
+            <div className="bg-white p-6 rounded-lg shadow-lg flex flex-col md:flex-row-reverse items-center gap-12 transition duration-300 hover:shadow-2xl hover:bg-gray-300">
               
               {/* Right Side Image */}
               <div className="w-auto">
@@ -80,7 +80,7 @@ const Activities = () => {
       <section className="py-6 bg-white sm:py-6 lg:py-6">
         <div className="max-w-full px-4 mx-auto sm:px-6 lg:px-8">
           <div className="transition-transform transform hover:scale-102 hover:bg-gray-200 hover:shadow-xl duration-300 ease-in-out">
-            <div className="bg-white p-6 rounded-lg shadow-lg flex flex-col md:flex-row items-center gap-12">
+            <div className="bg-white p-6 rounded-lg shadow-lg flex flex-col md:flex-row items-center gap-12  transition duration-300 hover:shadow-2xl hover:bg-gray-300">
               
               {/* Left Side Image */}
               <div className="w-auto">
@@ -114,7 +114,7 @@ const Activities = () => {
       <section className="py-6 bg-white sm:py-6 lg:py-6">
         <div className="max-w-full px-4 mx-auto sm:px-6 lg:px-8">
           <div className="transition-transform transform hover:scale-102 hover:bg-gray-200 hover:shadow-xl duration-300 ease-in-out">
-            <div className="bg-white p-6 rounded-lg shadow-lg flex flex-col md:flex-row-reverse items-center gap-12">
+            <div className="bg-white p-6 rounded-lg shadow-lg flex flex-col md:flex-row-reverse items-center gap-12 transition duration-300 hover:shadow-2xl hover:bg-gray-300">
               
               {/* Right Side Image */}
               <div className="w-auto">

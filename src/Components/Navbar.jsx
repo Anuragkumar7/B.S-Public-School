@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Navbar = () => {
-  const whatsappLink = "https://wa.me/917752836655";
+  const whatsappLink = "https://wa.me/919045388623";
   const facebookLink = "https://www.facebook.com/share/2ddwhRJKwYEhTLki/";
   const Instagram = "https://www.instagram.com/bs_public_school_1/";
 

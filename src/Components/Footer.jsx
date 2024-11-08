@@ -5,7 +5,6 @@ const Footer = () => {
   const whatsappLink = "https://wa.me/917752836655";
   const facebookLink = "https://www.facebook.com/share/2ddwhRJKwYEhTLki/";
 
-
   return (
     <>
       <section class="py-12 bg-gradient-to-r bg-white">
@@ -27,7 +26,7 @@ const Footer = () => {
               <ul class="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 xl:justify-end">
                 <li>
                   <a
-                    href="#"
+                    href="/About_School"
                     title=""
                     class="text-sm text-black transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                   >
@@ -36,7 +35,7 @@ const Footer = () => {
                   </a>
                 </li>
 
-                <li>
+                {/* <li>
                   <a
                     href="#"
                     title=""
@@ -45,16 +44,16 @@ const Footer = () => {
                     {" "}
                     Services{" "}
                   </a>
-                </li>
+                </li> */}
 
                 <li>
                   <a
-                    href="#"
-                    title=""
+                    href="./public/Files/privacy-policy.pdf"
+                    title="Privacy Policy"
+                    target="_blank"
                     class="text-sm text-black transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                   >
-                    {" "}
-                    Privacy Policy{" "}
+                    Privacy Policy
                   </a>
                 </li>
 
@@ -71,7 +70,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    href="#"
+                    href="/contact"
                     title=""
                     class="text-sm text-black transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                   >
@@ -84,8 +83,6 @@ const Footer = () => {
               <div class="w-full h-px mt-8 mb-5 xl:w-px xl:m-0 xl:h-6 bg-gray-50/20"></div>
 
               <ul class="flex items-center justify-center space-x-8 xl:justify-end">
-                
-
                 <li>
                   <a
                     href={facebookLink}
