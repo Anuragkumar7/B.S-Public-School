@@ -1,9 +1,10 @@
 import React from 'react';
-import Nav from './Nav';
+import Navbar from './Navbar';
 
 const Activities = () => {
   return (
     <>
+
       <Nav />
       
       {/* First section */}
@@ -21,6 +22,8 @@ const Activities = () => {
                     alt="Sports Activity"
                   />
                 </div>
+
+    
               </div>
               
               {/* Right Side Description */}
