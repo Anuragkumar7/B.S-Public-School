@@ -59,8 +59,9 @@ const Footer = () => {
 
                 <li>
                   <a
-                    href="#"
-                    title=""
+                    href="./public/Files/TERM-AND-CONDITION.pdf"
+                    title="TERM-AND-CONDITION"
+                    target="_blank"
                     class="text-sm text-black transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                   >
                     {" "}

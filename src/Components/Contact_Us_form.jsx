@@ -1,6 +1,7 @@
 
 import { MapPinIcon, PhoneIcon, EnvelopeIcon } from '@heroicons/react/24/solid';
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 export default function LocationAndContact() {
   return (
@@ -122,6 +123,7 @@ export default function LocationAndContact() {
           </div>
         </div>
       </section>
+      <Footer/>
     </>
   );
 }
