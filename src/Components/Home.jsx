@@ -61,14 +61,14 @@ const Home = () => {
             variants={textVariants}
             transition={{ duration: 0.6, ease: "easeOut" }}
           >
-            <p className="text-base font-semibold font-handwriting tracking-wider text-green-600 uppercase">
-              A social media for learners
+            <p className="text-base font-semibold font-handwriting tracking-wider text-white uppercase">
+              A Place for learners
             </p>
-            <h1 className="mt-4 text-4xl font-extralight text-white lg:mt-8 sm:text-6xl xl:text-8xl">
+            <h1 className="mt-4 text-4xl font-extralight text-white lg:mt-8 sm:text-6xl xl:text-8xl font-handwriting">
               The Smarter Way to Learn Anything
             </h1>
             <p className="mt-4 text-base text-white lg:mt-8 sm:text-xl">
-              Grow your career fast with the right mentor.
+              Grow your career fast with the right teachers.
             </p>
 
             <a

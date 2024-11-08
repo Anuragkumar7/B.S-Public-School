@@ -32,17 +32,17 @@ const About_School = () => {
               </h3>
 
               <p>
-                In the year 1995 some philantropes of martial race living in UP
-                and Delhi felt that they should establish an institution on
-                commemorating the secular ideals. Therefore Society for Child
-                Elefare was constituted and registered under the Societies
-                Registration Act at Meerut for attainment of this goal. The
-                school has been consistantly and deliberately striving to
-                achieve peaks of excellence in academics and allround social
-                developement of students through active participation in various
-                activities. Situated at the heart of Garhmukteshwar, we are the
-                upcoming school of value based learning in the area. Catering to
-                the needs of semi urbana dn rural backgrounds of the surrounding
+                In the year 2018 some philantropes of martial race living in UP
+                felt that they should establish an institution on commemorating
+                the secular ideals. Therefore Society for Child walefare was
+                constituted and registered under the Societies Registration Act
+                at Garhmukteshwar for attainment of this goal. The school has been
+                consistantly and deliberately striving to achieve peaks of
+                excellence in academics and allround social developement of
+                students through active participation in various activities.
+                Situated at the heart of Garhmukteshwar, we are the upcoming
+                school of value based learning in the area. Catering to the
+                needs of semi urbana dn rural backgrounds of the surrounding
                 areas we are bridging the gaps between the traditional gurukool
                 learning and modern amalgamated learnings. We form the laisen
                 between the learnings at home and wordly application of those
@@ -53,7 +53,7 @@ const About_School = () => {
                 We assess ourselves on the basis of
               </p>
               <ol className="pl-9" style={{ listStyleType: "decimal" }}>
-                <li>Board Result</li>
+                
                 <li>General Discipline</li>
                 <li>Sports Activities</li>
                 <li>Cultural and Social Activities</li>

@@ -39,7 +39,7 @@ const Gallery = () => {
 
   return (
     <>
-      <h1 className="text-center text-4xl font-bold mb-4 mt-16">
+      <h1 className="text-center text-4xl font-bold font-handwriting mb-4 mt-16">
         School <span className="text-yellow-400 underline">Gallery</span>
       </h1>
       <div className="container mx-auto px-4 py-2 lg:px-32 lg:pt-24">
@@ -69,6 +69,15 @@ const Gallery = () => {
             </div>
           </div>
         </div>
+      </div>
+      
+      {/* Centered Button */}
+      <div className="flex justify-center mt-8">
+        <a href="/FeaturedImageGallery">
+          <button className="bg-amber-500 font-handwriting text-white px-8 py-3 text-lg rounded-md font-semibold shadow-lg hover:bg-amber-600 transition duration-200 ease-in-out">
+            See More
+          </button>
+        </a>
       </div>
     </>
   );

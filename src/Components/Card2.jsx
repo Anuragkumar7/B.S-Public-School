@@ -37,19 +37,21 @@ const Card2 = () => {
           <div className="bg-yellow-100 p-2 rounded-full">
             <img
               className="rounded-full w-24 h-24"
-              src="../../public/images/principal.png"
+              src="../../public/images/co-ordinator.png"
               alt=""
             />
           </div>
         </div>
-        <h2 className="text-md font-semibold text-gray-800">Hello</h2>
+        <h2 className="text-md font-semibold text-gray-800">
+          Co-Ordinator's Message
+        </h2>
         <p className="text-gray-500 mt-2 mb-4 text-sm">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
-          voluptatibus laborum aspernatur atque voluptate? Id officiis iste nemo
-          cupiditate atque recusandae doloremque officia.
+          The ground to mobilise society necessitates a pattern of education
+          endowed with sheer value. It compels me to predict that CCA is quick
+          to embrace the changing demand of time. Never to give up ...
         </p>
         <button className="text-orange-500 font-semibold border border-orange-500 rounded-full px-3 py-1 hover:bg-orange-500 hover:text-white transition-colors duration-300 text-sm">
-          Read More
+          <a href="/Co-Ordinator"> Read More </a>
         </button>
       </motion.div>
 
@@ -95,21 +97,19 @@ const Card2 = () => {
           <div className="bg-yellow-100 p-2 rounded-full">
             <img
               className="rounded-full w-24 h-24"
-              src="../../public/images/sports.jpg"
+              src="../../public/images/Activities.jpg"
               alt=""
             />
           </div>
         </div>
-        <h2 className="text-md font-semibold text-gray-800">
-          Annual Sports Meet
-        </h2>
+        <h2 className="text-md font-semibold text-gray-800">Activities</h2>
         <p className="text-gray-500 mt-2 mb-4 text-sm">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere
-          voluptatibus laborum aspernatur atque voluptate? Id officiis iste nemo
-          cupiditate atque recusandae doloremque officia.
+          School activities are organized events or programs that schools
+          conduct to enrich students' educational experience and promote
+          personal growth. 
         </p>
         <button className="text-orange-500 font-semibold border border-orange-500 rounded-full px-3 py-1 hover:bg-orange-500 hover:text-white transition-colors duration-300 text-sm">
-          Read More
+          <a href="/Activities">Read More</a>
         </button>
       </motion.div>
     </div>

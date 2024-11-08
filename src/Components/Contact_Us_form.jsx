@@ -6,7 +6,7 @@ export default function LocationAndContact() {
   return (
     <>
       <Navbar/>
-      <section className="relative py-10 bg-gray-100 sm:py-12 lg:py-16 mt-20">
+      <section className="relative py-6 bg-gray-100 sm:py-12 lg:py-4 mt-20">
         <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-full">
           
           {/* Box containing Our Location, Contact Us, and School Hours */}
@@ -116,7 +116,7 @@ export default function LocationAndContact() {
             {/* School Hours Section - Below Location and Contact */}
             <div className="mt-6 text-left"> {/* Reduced top margin to mt-6 */}
               <h3 className="text-2xl font-semibold text-gray-800">School Hours</h3>
-              <p className="text-gray-700 mt-2">Monday - Saturday: 9:00 AM - 5:00 PM</p>
+              <p className="text-gray-700 mt-2">Monday - Saturday: 7:20 AM - 1:20 PM</p>
               <p className="text-gray-700">Sunday: Closed</p>
             </div>
           </div>

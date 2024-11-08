@@ -5,7 +5,7 @@ const Activities = () => {
   return (
     <>
 
-      <Nav />
+      <Navbar />
       
       {/* First section */}
       <section className="py-6 bg-white sm:py-6 lg:pt-24">
