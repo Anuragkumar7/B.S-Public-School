@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
+import Footer from './Footer';
 
 const Activities = () => {
   return (
@@ -140,6 +141,7 @@ const Activities = () => {
           </div>
         </div>
       </section>
+      <Footer/>
     </>
   );
 };
