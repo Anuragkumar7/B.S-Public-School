@@ -47,8 +47,8 @@ const About = () => {
           <div className="overflow-hidden bg-white shadow-md">
             <div className="px-6 py-6 sm:px-8 sm:py-6">
               <div>
-                <p className="text-2xl ">About School</p>
-                <p>
+                <p className="text-2xl font-handwriting">About School</p>
+                <p className="font-handwriting">
                   In the year 2018 some philanthropes of martial race living in
                   UP felt that they should establish an institution on
                   commemorating the secular ideals. Therefore, the Society for
@@ -67,16 +67,16 @@ const About = () => {
                   practical understanding.
                 </p>
 
-                <p className="text-gray-600 font-bold pt-6">
+                <p className="text-gray-600 font-bold pt-6 font-handwriting">
                   We assess ourselves on the basis of
                 </p>
-                <ol className="pl-9" style={{ listStyleType: "decimal" }}>
+                <ol className="pl-9 font-handwriting" style={{ listStyleType: "decimal" }}>
                   <li>General Discipline</li>
                   <li>Sports Activities</li>
                   <li>Cultural and Social Activities</li>
                   <li>Competitive Examination Successes</li>
                 </ol>
-                <p className="pt-6">
+                <p className="pt-6 font-handwriting">
                   We have achieved outstanding results on all the above criteria
                   and have set high standards for other institutions to follow.
                 </p>

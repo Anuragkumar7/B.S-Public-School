@@ -4,6 +4,18 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 
 export default function LocationAndContact() {
+
+  function Submit(e){
+    const fromEle = document.querySelector("form")
+    e.preventDefault()
+    console.log("Submit")
+    const formData = new FormData(fromEle)
+    fetch("https://script.google.com/macros/s/AKfycbzlstkmFLYnnJHhGrtji_rG4nRFHeXPuH1nQK7sh5haUNVrQawIwfBG_52XBHdQRNOzBg/exec",{ 
+      method: "POST",
+      body: formData,
+  })
+
+  }
   return (
     <>
       <Navbar/>
@@ -43,14 +55,14 @@ export default function LocationAndContact() {
                   <div className="text-center mb-6">
                     <h2 className="text-4xl font-bold text-gray-900">Contact Us</h2>
                   </div>
-                  <form action="#" method="POST" className="mt-4">
+                  <form className="form mt-4" onSubmit={(e) => Submit(e)}>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-4">
                       <div>
                         <label className="text-base font-medium text-gray-900">Parent's Name</label>
                         <div className="mt-1.5">
                           <input
                             type="text"
-                            placeholder="Enter parent's name"
+                            placeholder="Enter parent's name" name="parentName"
                             className="block w-full px-3 py-2 text-black bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600"
                           />
                         </div>
@@ -61,7 +73,7 @@ export default function LocationAndContact() {
                         <div className="mt-1.5">
                           <input
                             type="text"
-                            placeholder="Enter student name"
+                            placeholder="Enter student name"  name="studentName"
                             className="block w-full px-3 py-2 text-black bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600"
                           />
                         </div>
@@ -73,6 +85,7 @@ export default function LocationAndContact() {
                           <input
                             type="tel"
                             placeholder="Enter Phone Number"
+                             name="phoneNumber"
                             className="block w-full px-3 py-2 text-black bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600"
                           />
                         </div>
@@ -84,6 +97,7 @@ export default function LocationAndContact() {
                           <input
                             type="text"
                             placeholder="Class"
+                             name="className"
                             className="block w-full px-3 py-2 text-black bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600"
                           />
                         </div>
@@ -93,7 +107,8 @@ export default function LocationAndContact() {
                         <label className="text-base font-medium text-gray-900">Message</label>
                         <div className="mt-1.5">
                           <textarea
-                            placeholder=""
+                            placeholder="message"
+                             name="message"
                             className="block w-full px-3 py-2 text-black bg-white border border-gray-200 rounded-md resize-none focus:outline-none focus:border-blue-600 caret-blue-600"
                             rows="4"
                           ></textarea>
@@ -127,3 +142,6 @@ export default function LocationAndContact() {
     </>
   );
 }
+
+
+// https://script.google.com/macros/s/AKfycbzlstkmFLYnnJHhGrtji_rG4nRFHeXPuH1nQK7sh5haUNVrQawIwfBG_52XBHdQRNOzBg/exec

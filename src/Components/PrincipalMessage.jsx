@@ -1,6 +1,7 @@
 // principal_message.jsx
 import React from "react";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const PrincipalMessage = () => {
   return (
@@ -36,6 +37,7 @@ const PrincipalMessage = () => {
           </div>
         </div>
       </section>
+      <Footer/>
     </>
   );
 };
