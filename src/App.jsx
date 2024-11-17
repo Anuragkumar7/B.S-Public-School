@@ -4,7 +4,7 @@ import Main from "./Components/Main";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import PrincipalMessage from "./Components/PrincipalMessage";
 import Activities from "./Components/Activities";
-import About from "./Components/about";
+import About from "./Components/About";
 import Coordinator from "./Components/Coordinator";
 import { FeaturedImageGallery } from "./Components/FeaturedImageGallery";
 
@@ -22,8 +22,6 @@ function App() {
             <Route path="/principal-message" element={<PrincipalMessage />} />
             <Route path="/Co-Ordinator" element={<Coordinator/>} />
             <Route path="/FeaturedImageGallery" element={<FeaturedImageGallery/>} />
-
-
           </Routes>
         </Router>
       </div>
