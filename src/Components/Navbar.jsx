@@ -22,7 +22,7 @@ const Navbar = () => {
               <a href="/" title="Home" className="flex">
                 <img
                   className="w-auto h-14"
-                  src="../../public/images/logo.png"
+                  src="/images/logo.png"
                   alt="Logo"
                 />
                 <h1 className="font-bold pl-5 text-3xl pt-2 font-open-sans font-handwriting">
