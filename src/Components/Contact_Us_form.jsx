@@ -76,11 +76,11 @@ export default function LocationAndContact() {
                   </div>
                   <div className="flex items-center">
                     <PhoneIcon className="h-6 w-6 text-blue-600 mr-4" />
-                    <p className="text-gray-700">+91 9045388623</p>
+                    <p className="text-gray-700">+917451013241</p>
                   </div>
                   <div className="flex items-center">
                     <EnvelopeIcon className="h-6 w-6 text-blue-600 mr-4" />
-                    <p className="text-gray-700">sakshamgaur0010@gmail.com</p>
+                    <p className="text-gray-700"> <a href="mailto:bhardwajjatin2002@gmail.com">bhardwajjatin2002@gmail.com </a></p>
                   </div>
                 </div>
               </div>
@@ -144,7 +144,7 @@ export default function LocationAndContact() {
                         </label>
                         <div className="mt-1.5">
                           <input
-                            type="tel"
+                            type="phone"
                             placeholder="Enter Phone Number"
                             name="phoneNumber"
                             className="block w-full px-3 py-2 text-black bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600"
@@ -158,7 +158,7 @@ export default function LocationAndContact() {
                         </label>
                         <div className="mt-1.5">
                           <input
-                            type="text"
+                            type="number"
                             placeholder="Class"
                             name="className"
                             className="block w-full px-3 py-2 text-black bg-white border border-gray-200 rounded-md focus:outline-none focus:border-blue-600 caret-blue-600"
