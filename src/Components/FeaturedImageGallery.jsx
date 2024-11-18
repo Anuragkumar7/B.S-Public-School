@@ -5,35 +5,33 @@ export function FeaturedImageGallery() {
   const data = [
     {
       imgelink:
-        "../../public/images/image6.jpg",
+        "/images/image6.jpg",
     },
     {
         imgelink:
-          "../../public/images/image7.jpg",
+          "/images/image7.jpg",
       },
       {
         imgelink:
-          "../../public/images/image14.jpg",
+          "/images/image14.jpg",
       },
       {
         imgelink:
-          "../../public/images/image9.jpg",
+          "/images/image9.jpg",
       },
       {
         imgelink:
-          "../../public/images/image15.jpg",
+          "/images/image15.jpg",
       },
       {
         imgelink:
-          "../../public/images/image11.jpg",
+          "/images/image11.jpg",
       },
-     
-
     
   ];
  
   const [active, setActive] = React.useState(
-    "../public/images/image6.jpg"  );
+    "/images/image6.jpg");
  
   return (
     <>

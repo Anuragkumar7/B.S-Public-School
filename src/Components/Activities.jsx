@@ -19,7 +19,7 @@ const Activities = () => {
                 <div className="h-60 w-70">
                   <img
                     className="object-cover w-full h-full rounded-lg"
-                    src="../../public/images/Sports.jpg"
+                    src="/images/sports.jpg"
                     alt="Sports Activity"
                   />
                 </div>
@@ -55,7 +55,7 @@ const Activities = () => {
                 <div className="h-60 w-80">
                   <img
                     className="object-cover w-full h-full rounded-lg"
-                    src="../../public/images/Trip.jpg"
+                    src="/images/Trip.jpg"
                     alt="Trip Activity"
                   />
                 </div>
@@ -87,7 +87,7 @@ const Activities = () => {
                 <div className="h-60 w-80">
                   <img
                     className="object-cover w-full h-full rounded-lg"
-                    src="../../public/images/medals.jpg"
+                    src="/images/medals.jpg"
                     alt="Sports Activity"
                   />
                 </div>
@@ -121,7 +121,7 @@ const Activities = () => {
                 <div className="h-60 w-80">
                   <img
                     className="object-cover w-full h-full rounded-lg"
-                    src="../../public/images/Celebration.jpg"
+                    src="/images/Celebration.jpg"
                     alt="Trip Activity"
                   />
                 </div>

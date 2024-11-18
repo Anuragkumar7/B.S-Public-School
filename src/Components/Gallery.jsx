@@ -47,25 +47,25 @@ const Gallery = () => {
           {/* First column of images */}
           <div className="flex w-full sm:w-1/2 flex-wrap">
             <div className="w-1/2 p-1 md:p-2 sm:w-1/2">
-              <AnimatedImage src="../../public/images/image1.jpg" alt="gallery" />
+              <AnimatedImage src="/images/image1.jpg" alt="gallery" />
             </div>
             <div className="w-1/2 p-1 md:p-2 sm:w-1/2">
-              <AnimatedImage src="../../public/images/image2.jpg" alt="gallery" />
+              <AnimatedImage src="/images/image2.jpg" alt="gallery" />
             </div>
             <div className="w-full p-1 md:p-2">
-              <AnimatedImage src="../../public/images/image3.jpg" alt="gallery" />
+              <AnimatedImage src="/images/image3.jpg" alt="gallery" />
             </div>
           </div>
           {/* Second column of images */}
           <div className="flex w-full sm:w-1/2 flex-wrap">
             <div className="w-full p-1 md:p-2">
-              <AnimatedImage src="../../public/images/image4.jpg" alt="gallery" />
+              <AnimatedImage src="/images/image4.jpg" alt="gallery" />
             </div>
             <div className="w-1/2 p-1 md:p-2 sm:w-1/2">
-              <AnimatedImage src="../../public/images/image5.jpg" alt="gallery" />
+              <AnimatedImage src="/images/image5.jpg" alt="gallery" />
             </div>
             <div className="w-1/2 p-1 md:p-2 sm:w-1/2">
-              <AnimatedImage src="../../public/images/sports.jpg" alt="gallery" />
+              <AnimatedImage src="/images/sports.jpg" alt="gallery" />
             </div>
           </div>
         </div>

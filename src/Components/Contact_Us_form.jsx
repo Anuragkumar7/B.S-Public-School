@@ -87,7 +87,7 @@ export default function LocationAndContact() {
 
               {/* Contact Us Section */}
               <div className="flex justify-end">
-                <div className="w-full sm:w-3/4 md:w-2/3 lg:w-3/4 xl:w-2/3">
+                <div className="w-full max-w-lg mx-auto">
                   <div className="text-center mb-6">
                     <h2 className="text-4xl font-bold text-gray-900">
                       Contact Us
@@ -97,7 +97,7 @@ export default function LocationAndContact() {
                   {/* Display success/error message */}
                   {message && (
                     <div
-                      className={`mb-4 p-4 text-center ${
+                      className={`mb-4 p-4 w-full text-center ${
                         messageType === "success"
                           ? "text-green-600 bg-green-100"
                           : "text-red-600 bg-red-100"
@@ -108,8 +108,9 @@ export default function LocationAndContact() {
                   )}
 
                   <form className="form mt-4" onSubmit={Submit}>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-4">
-                      <div>
+                    <div className="grid grid-cols-1 gap-y-4 sm:grid-cols-2 sm:gap-x-4">
+                      {/* Updated to stack inputs below each other on mobile */}
+                      <div className="sm:col-span-1">
                         <label className="text-base font-medium text-gray-900">
                           Parent's Name
                         </label>
@@ -123,7 +124,7 @@ export default function LocationAndContact() {
                         </div>
                       </div>
 
-                      <div>
+                      <div className="sm:col-span-1">
                         <label className="text-base font-medium text-gray-900">
                           Student Name
                         </label>
@@ -137,7 +138,7 @@ export default function LocationAndContact() {
                         </div>
                       </div>
 
-                      <div>
+                      <div className="sm:col-span-1">
                         <label className="text-base font-medium text-gray-900">
                           Phone Number
                         </label>
@@ -151,7 +152,7 @@ export default function LocationAndContact() {
                         </div>
                       </div>
 
-                      <div>
+                      <div className="sm:col-span-1">
                         <label className="text-base font-medium text-gray-900">
                           Class
                         </label>
@@ -165,13 +166,13 @@ export default function LocationAndContact() {
                         </div>
                       </div>
 
-                      <div className="col-span-2">
+                      <div className="col-span-1 sm:col-span-2">
                         <label className="text-base font-medium text-gray-900">
                           Message
                         </label>
                         <div className="mt-1.5">
                           <textarea
-                            placeholder="message"
+                            placeholder="Message"
                             name="message"
                             className="block w-full px-3 py-2 text-black bg-white border border-gray-200 rounded-md resize-none focus:outline-none focus:border-blue-600 caret-blue-600"
                             rows="4"
@@ -179,7 +180,7 @@ export default function LocationAndContact() {
                         </div>
                       </div>
 
-                      <div className="col-span-2">
+                      <div className="col-span-1 sm:col-span-2">
                         <button
                           type="submit"
                           className="inline-flex items-center justify-center w-full px-4 py-2 text-base font-semibold text-white bg-blue-600 rounded-md hover:bg-blue-700"

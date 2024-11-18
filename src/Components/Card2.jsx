@@ -37,7 +37,7 @@ const Card2 = () => {
           <div className="bg-yellow-100 p-2 rounded-full">
             <img
               className="rounded-full w-24 h-24"
-              src="/public/images/co-ordinator.png"
+              src="/images/co-ordinator.png"
               alt=""
             />
           </div>
@@ -67,7 +67,7 @@ const Card2 = () => {
           <div className="bg-yellow-100 p-2 rounded-full">
             <img
               className="rounded-full w-28 h-28"
-              src="/public/images/principal.png"
+              src="/images/principal.png"
               alt=""
             />
           </div>
@@ -97,7 +97,7 @@ const Card2 = () => {
           <div className="bg-yellow-100 p-2 rounded-full">
             <img
               className="rounded-full w-24 h-24"
-              src="/public/images/Activities.jpg"
+              src="/images/Activities.jpg"
               alt=""
             />
           </div>

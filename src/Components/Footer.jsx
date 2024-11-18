@@ -13,7 +13,7 @@ const Footer = () => {
             <div class="xl:flex xl:items-center xl:justify-start">
               <img
                 class="w-auto mx-auto h-7"
-                src="../../public/images/logo.png"
+                src="/images/logo.png"
                 alt="logo"
               />
 
@@ -48,7 +48,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    href="./public/Files/privacy-policy.pdf"
+                    href="/Files/privacy-policy.pdf"
                     title="Privacy Policy"
                     target="_blank"
                     class="text-sm text-black transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
@@ -59,7 +59,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    href="./public/Files/TERM-AND-CONDITION.pdf"
+                    href="/Files/TERM-AND-CONDITION.pdf"
                     title="TERM-AND-CONDITION"
                     target="_blank"
                     class="text-sm text-black transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"

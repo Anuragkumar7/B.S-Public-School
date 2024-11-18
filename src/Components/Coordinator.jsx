@@ -13,7 +13,7 @@ const Coordinator = () => {
               <div className="absolute w-48 h-48 bg-gray-300 rounded-full -bottom-2 -right-1"></div>
               <img
                 className="relative object-cover w-48 h-48 rounded-full"
-                src="../../public/images/co-ordinator.png"
+                src="/images/co-ordinator.png"
                 alt="Principal"
               />
             </div>
